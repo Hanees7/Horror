@@ -1,0 +1,102 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 100vh;
+
+}
+
+#main-wrapper{
+	width: 280px;
+	position:fixed;
+	top: 40%;
+	left: 19%;
+	transform: translate(-50% , -50%);
+	color: rgb(202, 211, 216);
+}
+
+#main-wrapper h1{
+	float: left;
+  	font-size: 40px;
+  	border-bottom: 5px solid rgb(202, 211, 216);
+  	margin-bottom: 40px; 
+}
+
+
+#main{
+	width: 330px;
+	position: absolute;
+	top: 43%;
+	left: 45%;
+	transform: translate(-50% , -50%);
+	color: rgb(192, 204, 212);
+	backdrop-filter: blur(15px); 
+}
+
+.inputvalues{
+	width: 100%;
+	overflow: hidden;
+  	font-size: 20px;
+  	padding: 8px 0;
+  	margin: 8px 0;
+  	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.inputvalues i{
+	width: 26px;
+	float: left;
+    text-align: center;
+    color: black;
+}
+
+.inputvalues input{
+	border : none;
+	outline: none;
+	background : none;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+#signin_btn{
+	width: 100%;
+	background: rgba(39, 66, 82, 0.883);
+	border: transparent;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	margin: 12px 0;
+	font-weight: 400px;
+	
+}
+
+#create_btn{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: rgba(8, 8, 8, 0.712);
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400px;
+	border: transparent ;
+}
+
+#back_btn{
+	margin-top: 10px;
+	background-color: rgb(57, 94, 109);
+	padding: 5px;
+	color: white;
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500px;
+	border: transparent;
+}
